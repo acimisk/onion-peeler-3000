@@ -9,11 +9,14 @@ Dosyanın uzantısına değil `file` komutuyla gerçek türüne bakar. `gzip`, `
 
 Çalıştırmadan önce hexdump halindeki dosyayı ikili (binary) formata çevirmiş olman gerekir:
 
-xxd -r data.txt > dosya1
+```bash
+xxd -r data.txt > initial_file
 chmod +x onionpeeler.sh
-./onionpeeler.sh dosya1
+./onionpeeler.sh initial_file
+```
 
 Çalışmazsa sorun script'te değil, büyük ihtimalle hexdump'ı çevirmeyi unuttun ya da bilgisayarı kapatıp açman lazım.
+
 
 # 🇺🇸 EN
 
